@@ -1,5 +1,10 @@
 # @lxgicstudios/ai-form
 
+[![npm version](https://img.shields.io/npm/v/%40lxgicstudios%2Fai-form.svg)](https://www.npmjs.com/package/@lxgicstudios/ai-form)
+[![npm downloads](https://img.shields.io/npm/dm/%40lxgicstudios%2Fai-form.svg)](https://www.npmjs.com/package/@lxgicstudios/ai-form)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 Generate form components with validation from plain English descriptions.
 
 ## Install
