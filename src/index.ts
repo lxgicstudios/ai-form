@@ -1,8 +1,20 @@
 import OpenAI from "openai";
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+function getOpenAI(): OpenAI {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    console.error(
+      "Missing OPENAI_API_KEY environment variable.\n" +
+      "Get one at https://platform.openai.com/api-keys then:\n" +
+      "  export OPENAI_API_KEY=sk-..."
+    );
+    process.exit(1);
+  }
+  return new OpenAI({ apiKey });
+}
 
 export async function generateForm(description: string, options: { typescript?: boolean; library?: string }): Promise<string> {
+  const openai = getOpenAI();
   const lang = options.typescript ? "TypeScript (TSX)" : "JavaScript (JSX)";
   const lib = options.library || "react-hook-form + zod";
 

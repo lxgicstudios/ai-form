@@ -1,6 +1,6 @@
 {
   "name": "@lxgicstudios/ai-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate form components with validation from descriptions",
   "main": "dist/index.js",
   "bin": {
