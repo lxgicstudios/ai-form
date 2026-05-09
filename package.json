@@ -15,37 +15,42 @@
     "build": "tsc"
   },
   "keywords": [
+    "2025-standards",
     "agentic",
     "ai",
+    "ai-2025",
     "ai-agent",
+    "ai-powered",
     "anthropic",
     "automation",
     "claude",
     "cli",
+    "developer-productivity",
     "developer-tools",
+    "discoverability",
     "form",
     "frontend",
-    "generator",
-    "gpt",
-    "llm",
-    "openai",
+    "generative-ai",
+    "llm-optimized",
+    "modern-seo",
+    "optimization",
+    "performance",
+    "performance-optimization",
     "react",
-    "react-hook-form",
+    "seo",
+    "seo-2026",
     "typescript",
-    "ui",
-    "validation",
-    "zero-config",
-    "zod"
+    "validation"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/@lxgicstudios/ai-form#readme",
+  "homepage": "https://github.com/LXGIC-Studios/ai-form#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/ai-form"
+    "url": "https://github.com/LXGIC-Studios/ai-form"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/@lxgicstudios/ai-form/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-form/issues"
   },
   "funding": {
     "type": "github",
