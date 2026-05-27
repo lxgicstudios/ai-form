@@ -1,75 +1,68 @@
 {
-  "name": "@lxgicstudios/ai-form",
-  "version": "1.0.1",
-  "description": "Generate form components with validation from descriptions",
-  "main": "dist/index.js",
-  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "lxgic studios",
+    "email": "contact@lxgic.com",
+    "url": "https://lxgic.com"
+  },
   "bin": {
     "ai-form": "dist/cli.js"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "scripts": {
-    "build": "tsc"
-  },
-  "keywords": [
-    "2025-standards",
-    "agentic",
-    "ai",
-    "ai-2025",
-    "ai-agent",
-    "ai-powered",
-    "anthropic",
-    "automation",
-    "claude",
-    "cli",
-    "developer-productivity",
-    "developer-tools",
-    "discoverability",
-    "form",
-    "frontend",
-    "generative-ai",
-    "llm-optimized",
-    "modern-seo",
-    "optimization",
-    "performance",
-    "performance-optimization",
-    "react",
-    "seo",
-    "seo-2026",
-    "typescript",
-    "validation"
-  ],
-  "author": "LXGIC Studios",
-  "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-form#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-form"
-  },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-form/issues"
-  },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/LXGIC-Studios"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "url": "https://github.com/lxgicstudios/ai-form/issues"
   },
   "dependencies": {
     "commander": "^12.1.0",
     "openai": "^4.73.0",
     "ora": "^5.4.1"
   },
+  "description": "Generate form components with validation from descriptions",
   "devDependencies": {
     "typescript": "^5.6.0",
     "@types/node": "^22.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-form#readme",
+  "keywords": [
+    "AI-optimized",
+    "AI-powered",
+    "ai-optimized",
+    "ai-powered",
+    "automation",
+    "best-practices",
+    "cli",
+    "developer-tools",
+    "performance",
+    "seo-tools",
+    "technical-seo",
+    "utility",
+    "web-optimization",
+    "2025-standards",
+    "modern-seo"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@lxgicstudios/ai-form",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-form"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "1.0.1"
 }
