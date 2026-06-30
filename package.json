@@ -39,17 +39,7 @@
     "input",
     "form-handling",
     "mobile-first",
-    "url-structure",
-    "ai-search-optimization",
-    "generative-engine-optimization",
-    "geo",
-    "june-2026-core-update",
-    "faq-rich-results-removed",
-    "ai-overview-citation",
-    "structured-data-seo",
-    "llms-txt-seo",
-    "2026-standards",
-    "modern-seo"
+    "url-structure"
   ],
   "license": "MIT",
   "main": "dist/index.js",
