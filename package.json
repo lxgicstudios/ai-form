@@ -39,7 +39,9 @@
     "input",
     "form-handling",
     "mobile-first",
-    "url-structure"
+    "url-structure",
+    "seo-optimized",
+    "clawdbot"
   ],
   "license": "MIT",
   "main": "dist/index.js",
