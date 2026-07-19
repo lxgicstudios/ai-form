@@ -8,7 +8,7 @@
     "ai-form": "dist/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/npm-tools/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-form/issues"
   },
   "dependencies": {
     "commander": "^12.1.0",
@@ -31,7 +31,7 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-form",
+  "homepage": "https://github.com/LXGIC-Studios/ai-form",
   "keywords": [
     "form-builder",
     "validation",
@@ -41,7 +41,19 @@
     "mobile-first",
     "url-structure",
     "seo-optimized",
-    "clawdbot"
+    "clawdbot",
+    "ai",
+    "anthropic",
+    "automation",
+    "claude",
+    "cli",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "devtools",
+    "gpt",
+    "npx",
+    "openai"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -52,8 +64,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/npm-tools.git",
-    "directory": "ai-form"
+    "url": "git+https://github.com/LXGIC-Studios/ai-form.git"
   },
   "scripts": {
     "build": "tsc"
